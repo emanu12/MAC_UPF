@@ -75,3 +75,20 @@ vsim -gui -t 10ps work.tb_pmu
 add wave -position insertpoint sim:/tb_pmu/*
 add wave -position insertpoint sim:/tb_pmu/PBU/*
 run
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_PMU.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+add wave -position insertpoint sim:/tb_pmu/PBU/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_pmu(behavior)
+# Loading work.pmu(behavioral)
+# Loading work.detection_circuit(behavioral)
+# Loading work.cnt_2bit(behavioral)
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 

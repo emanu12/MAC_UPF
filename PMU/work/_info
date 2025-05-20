@@ -14,7 +14,7 @@ Z0 w1747725504
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 15
+!i122 20
 Z4 dC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU
 Z5 8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd
 Z6 FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd
@@ -24,9 +24,9 @@ VcEnMmQPCg[U_72b2eiZ6c1
 !s100 NVb>^GK94lBZL1RjiMcRC3
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1747727068
+Z8 !s110 1747728998
 !i10b 1
-Z9 !s108 1747727068.000000
+Z9 !s108 1747728998.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd|
 Z11 !s107 C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd|
 !i113 1
@@ -37,7 +37,7 @@ R1
 R2
 R3
 DEx4 work 8 cnt_2bit 0 22 cEnMmQPCg[U_72b2eiZ6c1
-!i122 15
+!i122 20
 l16
 L14 18
 VkjoYmYfTf8<d:5mJUBUj;3
@@ -57,7 +57,7 @@ Z14 w1747727030
 R1
 R2
 R3
-!i122 16
+!i122 21
 R4
 Z15 8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd
 Z16 FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd
@@ -80,7 +80,7 @@ R1
 R2
 R3
 DEx4 work 17 detection_circuit 0 22 YTGmn>0PDbhnWh:0Dmezz2
-!i122 16
+!i122 21
 l30
 L15 43
 V=^V:eiYLl6Jm=9U6NbcTZ1
@@ -96,11 +96,11 @@ R18
 R12
 R13
 Epmu
-Z19 w1747725970
+Z19 w1747728990
 R1
 R2
 R3
-!i122 17
+!i122 22
 R4
 Z20 8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU.vhd
 Z21 FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU.vhd
@@ -123,11 +123,11 @@ R1
 R2
 R3
 DEx4 work 3 pmu 0 22 n;8;^HW4L:_zY[Kc^7Nh[2
-!i122 17
+!i122 22
 l45
-L15 165
-VnzIIgkSHON6BE6Ca^nAHl2
-!s100 IJ@K:^ZcL=TMQMb4[nO_Z1
+L15 166
+V]cH8_YT=0737O47e;5nNV3
+!s100 EmL^]f;ZD3S7md[S4N_Km0
 R7
 32
 R8
@@ -143,7 +143,7 @@ w1747725100
 R1
 R2
 R3
-!i122 18
+!i122 23
 R4
 8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd
 FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd
@@ -166,7 +166,7 @@ Z24 w1747725510
 R1
 R2
 R3
-!i122 19
+!i122 24
 R4
 Z25 8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU.vhd
 Z26 FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU.vhd
@@ -189,7 +189,7 @@ R1
 R2
 R3
 Z29 DEx4 work 6 tb_pmu 0 22 jXA5EoORfl^hg@B@zO@YV3
-!i122 19
+!i122 24
 l30
 Z30 L8 90
 Z31 VU4jPIk=>>3HV2YK`W2>`02
