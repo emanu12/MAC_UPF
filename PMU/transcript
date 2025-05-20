@@ -1,0 +1,77 @@
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_PMU.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+vsim -gui work.tb_pmu -t 10ps
+# vsim -gui work.tb_pmu -t 10ps 
+# Start time: 09:24:47 on May 20,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pmu(behavior)
+# Loading work.pmu(behavioral)
+# Loading work.detection_circuit(behavioral)
+# ** Fatal: (vsim-3817) Port "cnt_enable" of entity "detection_circuit" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_pmu/PBU/DET File: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd Line: 9
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 09:24:47 on May 20,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_PMU.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+vsim -gui -t 10ps work.tb_pmu
+# vsim -gui -t 10ps work.tb_pmu 
+# Start time: 09:26:29 on May 20,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pmu(behavior)
+# Loading work.pmu(behavioral)
+# Loading work.detection_circuit(behavioral)
+# Loading work.cnt_2bit(behavioral)
+add wave -position insertpoint sim:/tb_pmu/*
+run
+add wave -position insertpoint sim:/tb_pmu/PBU/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+quit -sim
+# End time: 09:42:02 on May 20,2025, Elapsed time: 0:15:33
+# Errors: 0, Warnings: 1
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_PMU.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_PMU.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+vsim -gui -t 10ps work.tb_pmu
+# vsim -gui -t 10ps work.tb_pmu 
+# Start time: 09:44:38 on May 20,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_pmu(behavior)
+# Loading work.pmu(behavioral)
+# Loading work.detection_circuit(behavioral)
+# Loading work.cnt_2bit(behavioral)
+add wave -position insertpoint sim:/tb_pmu/*
+add wave -position insertpoint sim:/tb_pmu/PBU/*
+run

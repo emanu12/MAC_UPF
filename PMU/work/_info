@@ -1,0 +1,206 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/emanu/Documents/POLITO/LOWPOWER/LowPower3_2025/LAB2/es3/datapath
+Ecnt_2bit
+Z0 w1747725504
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 15
+Z4 dC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU
+Z5 8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd
+Z6 FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd
+l0
+L5 1
+VcEnMmQPCg[U_72b2eiZ6c1
+!s100 NVb>^GK94lBZL1RjiMcRC3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1747727068
+!i10b 1
+Z9 !s108 1747727068.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd|
+Z11 !s107 C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 8 cnt_2bit 0 22 cEnMmQPCg[U_72b2eiZ6c1
+!i122 15
+l16
+L14 18
+VkjoYmYfTf8<d:5mJUBUj;3
+!s100 =dDzL4<I`HB@UGKUSHDeM2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edetection_circuit
+Z14 w1747727030
+R1
+R2
+R3
+!i122 16
+R4
+Z15 8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd
+Z16 FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd
+l0
+L5 1
+VYTGmn>0PDbhnWh:0Dmezz2
+!s100 _LW4kRSfeii7EeChBZ71d1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd|
+Z18 !s107 C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 17 detection_circuit 0 22 YTGmn>0PDbhnWh:0Dmezz2
+!i122 16
+l30
+L15 43
+V=^V:eiYLl6Jm=9U6NbcTZ1
+!s100 5_IjGY_joPL;>Ngzm=BR`2
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Epmu
+Z19 w1747725970
+R1
+R2
+R3
+!i122 17
+R4
+Z20 8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU.vhd
+Z21 FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU.vhd
+l0
+L5 1
+Vn;8;^HW4L:_zY[Kc^7Nh[2
+!s100 diQY?2@9HO33dU<Uo3bLc1
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU.vhd|
+Z23 !s107 C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 3 pmu 0 22 n;8;^HW4L:_zY[Kc^7Nh[2
+!i122 17
+l45
+L15 165
+VnzIIgkSHON6BE6Ca^nAHl2
+!s100 IJ@K:^ZcL=TMQMb4[nO_Z1
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Etb_detection_circuit
+w1747725100
+R1
+R2
+R3
+!i122 18
+R4
+8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd
+FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd
+l0
+L6 1
+VXQj[aMjKNMRDMPQQzl4e:3
+!s100 RN7Q0A1n49404Q`aBS>OM0
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd|
+!s107 C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd|
+!i113 1
+R12
+R13
+Etb_pmu
+Z24 w1747725510
+R1
+R2
+R3
+!i122 19
+R4
+Z25 8C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU.vhd
+Z26 FC:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU.vhd
+l0
+L5 1
+VjXA5EoORfl^hg@B@zO@YV3
+!s100 k6]nZj_W8Z5I>cX0C?n>T0
+R7
+32
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU.vhd|
+Z28 !s107 C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+Z29 DEx4 work 6 tb_pmu 0 22 jXA5EoORfl^hg@B@zO@YV3
+!i122 19
+l30
+Z30 L8 90
+Z31 VU4jPIk=>>3HV2YK`W2>`02
+Z32 !s100 olBDm>XiGI>46R?HZIL6c3
+R7
+32
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
