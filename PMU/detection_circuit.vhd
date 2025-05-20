@@ -51,7 +51,7 @@ begin
     );
 
     -- z1 = 1 se il contatore vale 2 (10)
-    z1 <= not(out_cnt(0)) and out_cnt(1);
+    z1 <= not(out_cnt(1)) and out_cnt(0);
     z  <= z1;
 
 end behavioral;
