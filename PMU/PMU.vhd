@@ -37,7 +37,7 @@ end component;
 ATTRIBUTE enum_encoding : string;
 ATTRIBUTE enum_encoding OF type_state : TYPE IS "000 001 011 010 110 100 ";
 signal current_state, next_state : type_state;
-signal reset_cnt,cnt_enable : std_logic;
+signal reset_cnt, cnt_enable : std_logic;
 signal x,y,k,z,p : std_logic;
 
 
@@ -162,7 +162,6 @@ case current_state is
   when S4 =>
       stop_mult <= '1';
       stop_add <= '1';
-      reset_cnt <= '1';
   when S5 =>
       reset_cnt <= '0';
       cnt_enable <= '1';

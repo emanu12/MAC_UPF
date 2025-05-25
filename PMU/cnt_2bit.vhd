@@ -3,16 +3,15 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity cnt_2bit is
-    Port (
-        clk    : in  STD_LOGIC;
-        reset  : in  STD_LOGIC;
-        enable : in  STD_LOGIC;
-        count  : out UNSIGNED(1 downto 0)
-    );
+   Port ( clk : in std_logic;
+               reset : in std_logic;
+               enable : in std_logic;
+               count : out std_logic_vector(1 downto 0)
+             );
 end cnt_2bit;
 
 architecture Behavioral of cnt_2bit is
-    signal cnt_reg : UNSIGNED(1 downto 0) := (others => '0');
+    signal cnt_reg : unsigned(1 downto 0) := (others => '0');
 begin
     process(clk, reset)
     begin
@@ -21,11 +20,9 @@ begin
         elsif rising_edge(clk) then
             if enable = '1' then
                 cnt_reg <= cnt_reg + 1;
-            else
-                cnt_reg <= cnt_reg; 
             end if;
         end if;
     end process;
 
-    count <= cnt_reg;
+    count <= std_logic_vector(cnt_reg);
 end Behavioral;

@@ -1,12 +1,23 @@
 # Compile of cnt_2bit.vhd was successful.
 # Compile of detection_circuit.vhd was successful.
+# Compile of mul.vhd was successful.
 # Compile of PMU.vhd was successful.
 # Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
 # Compile of tb_PMU.vhd was successful.
-# 5 compiles, 1 failed with 1 error.
-vsim -gui work.tb_pmu -t 10ps
-# vsim -gui work.tb_pmu -t 10ps 
-# Start time: 09:24:47 on May 20,2025
+# 7 compiles, 1 failed with 1 error.
+# Load canceled
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+vsim -gui work.tb_pmu
+# vsim -gui work.tb_pmu 
+# Start time: 15:04:35 on May 25,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -18,17 +29,19 @@ vsim -gui work.tb_pmu -t 10ps
 #    Time: 0 ps  Iteration: 0  Instance: /tb_pmu/PBU/DET File: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd Line: 9
 # FATAL ERROR while loading design
 # Error loading design
-# End time: 09:24:47 on May 20,2025, Elapsed time: 0:00:00
+# End time: 15:04:36 on May 25,2025, Elapsed time: 0:00:01
 # Errors: 1, Warnings: 6
 # Compile of cnt_2bit.vhd was successful.
 # Compile of detection_circuit.vhd was successful.
+# Compile of mul.vhd was successful.
 # Compile of PMU.vhd was successful.
 # Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
 # Compile of tb_PMU.vhd was successful.
-# 5 compiles, 1 failed with 1 error.
-vsim -gui -t 10ps work.tb_pmu
-# vsim -gui -t 10ps work.tb_pmu 
-# Start time: 09:26:29 on May 20,2025
+# 7 compiles, 1 failed with 1 error.
+vsim -gui work.tb_pmu
+# vsim -gui work.tb_pmu 
+# Start time: 15:05:32 on May 25,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -37,51 +50,24 @@ vsim -gui -t 10ps work.tb_pmu
 # Loading work.pmu(behavioral)
 # Loading work.detection_circuit(behavioral)
 # Loading work.cnt_2bit(behavioral)
-add wave -position insertpoint sim:/tb_pmu/*
-run
-add wave -position insertpoint sim:/tb_pmu/PBU/*
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run
-# GetModuleFileName: Impossibile trovare il modulo specificato.
-# 
-# 
-quit -sim
-# End time: 09:42:02 on May 20,2025, Elapsed time: 0:15:33
-# Errors: 0, Warnings: 1
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_PMU.vhd was successful.
-# 5 compiles, 1 failed with 1 error.
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_PMU.vhd was successful.
-# 5 compiles, 1 failed with 1 error.
-vsim -gui -t 10ps work.tb_pmu
-# vsim -gui -t 10ps work.tb_pmu 
-# Start time: 09:44:38 on May 20,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pmu(behavior)
-# Loading work.pmu(behavioral)
-# Loading work.detection_circuit(behavioral)
-# Loading work.cnt_2bit(behavioral)
-add wave -position insertpoint sim:/tb_pmu/*
 add wave -position insertpoint sim:/tb_pmu/PBU/*
 run
 # Compile of cnt_2bit.vhd was successful.
 # Compile of detection_circuit.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of PMU.vhd failed with 2 errors.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# 7 compiles, 2 failed with 3 errors.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of mul.vhd was successful.
 # Compile of PMU.vhd was successful.
 # Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
 # Compile of tb_PMU.vhd was successful.
-# 5 compiles, 1 failed with 1 error.
-add wave -position insertpoint sim:/tb_pmu/PBU/*
+# 7 compiles, 1 failed with 1 error.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.tb_pmu(behavior)
@@ -92,20 +78,70 @@ run
 # GetModuleFileName: Impossibile trovare il modulo specificato.
 # 
 # 
-add wave -position insertpoint sim:/tb_pmu/*
-add wave -position insertpoint sim:/tb_pmu/PBU/*
 # Compile of cnt_2bit.vhd was successful.
 # Compile of detection_circuit.vhd was successful.
+# Compile of mul.vhd was successful.
 # Compile of PMU.vhd was successful.
 # Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
 # Compile of tb_PMU.vhd was successful.
-# 5 compiles, 1 failed with 1 error.
+# 7 compiles, 1 failed with 1 error.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.tb_pmu(behavior)
 # Loading work.pmu(behavioral)
 # Loading work.detection_circuit(behavioral)
 # Loading work.cnt_2bit(behavioral)
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+add wave -position insertpoint sim:/tb_pmu/PBU/DET/*
+restart
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+restart
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd failed with 1 errors.
+# Compile of mul.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# 7 compiles, 2 failed with 2 errors.
+# Compile of cnt_2bit.vhd failed with 2 errors.
+# Compile of detection_circuit.vhd failed with 1 errors.
+# Compile of mul.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# 7 compiles, 3 failed with 4 errors.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd failed with 1 errors.
+# Compile of mul.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# 7 compiles, 2 failed with 2 errors.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of mul.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# 7 compiles, 1 failed with 1 error.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_pmu(behavior)
+# Loading work.pmu(behavioral)
+# Loading work.detection_circuit(behavioral)
+# Loading work.cnt_2bit(behavioral)
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_pmu/PBU/DET/p1'. 
 run
 # GetModuleFileName: Impossibile trovare il modulo specificato.
 # 
