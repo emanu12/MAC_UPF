@@ -1,0 +1,86 @@
+C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU_tot.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU_tot.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity PMU_tot
+-- Compiling architecture behavioral of PMU_tot
+
+} {} {}} C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_mul.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_mul.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TBMUL
+-- Compiling architecture TEST of TBMUL
+
+} {} {}} C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/cnt_2bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cnt_2bit
+-- Compiling architecture Behavioral of cnt_2bit
+
+} {} {}} C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/mul.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/mul.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mul
+-- Compiling architecture BEHAVIORAL of mul
+
+} {} {}} C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_detection_circuit
+-- Compiling architecture Behavioral of tb_detection_circuit
+** Error: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd(44): (vcom-1035) Formal port "cnt_enable" has OPEN or no actual associated with it.
+** Note: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_detection_circuit.vhd(97): VHDL Compiler exiting
+
+} {9.0 10.0} {}} C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU_6.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU_6.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity PMU
+** Error: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU_6.vhd(13): (vcom-1136) Unknown identifier "ret1".
+** Error: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU_6.vhd(13): Bad resolution function (STD_LOGIC) for type (error).
+** Error: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU_6.vhd(13): near ",": (vcom-1576) expecting ';' or ')'.
+
+} {8.0 11.0} {}} C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_PMU
+-- Compiling architecture behavior of tb_PMU
+
+} {} {}} C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/detection_circuit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity detection_circuit
+-- Compiling architecture behavioral of detection_circuit
+
+} {} {}} C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/PMU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity PMU
+-- Compiling architecture behavioral of PMU
+
+} {} {}}

@@ -32,7 +32,7 @@ type main_state is (
   LPM,  -- low power multiplier and high speed rca
   ESM, -- high speed multiplier and low power vprca
   FPM,  -- high speed multiplier and high speed rca
-)
+);
 
 ATTRIBUTE enum_encoding : string;
 ATTRIBUTE enum_encoding OF main_state : TYPE IS "000 001 011 010 110";
@@ -392,8 +392,6 @@ begin
     switchAH <= '0';
 
 end process;
-
-
 
 
   DET : detection_circuit port map(inputs,clk,reset_cnt,cnt_enable,x,y,k,z,p);
