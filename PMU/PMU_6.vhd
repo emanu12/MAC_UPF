@@ -326,11 +326,8 @@ begin
     isoAL <= '1'; 
     isoMH <= '1';
     isoAH <= '1';
-    ret1 <= '0';
-    ret2 <= '0';   
-    ret3 <= '0';
     when SLEEP =>
-      
+
     when RPM =>
     S_add <= "000";
     switchAL <= '0';
@@ -358,11 +355,42 @@ begin
           when others =>
               reset_cnt <= '1';
         end case;
-        when LPM =>
+   
+    when LPM =>
+    switchML <= '0';
+    switchAH <= '0';
+   
+    when ESM =>
+    switchAL <= '0';
+    switchAH <= '0';
+    reset_cnt <= '0';
+    case current_state is
+      when S0 =>
+      reset_cnt <= '1';
+      when S1 =>
+            S_add <= "100";
+            reset_cnt <= '1';
+      when S2 =>
+          S_add <= "110";
+          reset_cnt <= '1';
+      when S3 => 
+          S_add <= "111";
+          reset_cnt <= '1';
+      when S4 =>
+          switchML <= '1';
+          switchMH <= '1';
+          switchAL <= '1';
+      when S5 =>
+          reset_cnt <= '0';
+          cnt_enable <= '1';
+      when others =>
+          reset_cnt <= '1';
+    end case;
 
-        when ESM =>
+    when FPM =>
+    switchMH <= '0';
+    switchAH <= '0';
 
-        when FPM =>
 end process;
 
 
