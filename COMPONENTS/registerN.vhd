@@ -8,7 +8,6 @@ entity register is
     Port (
         clk     : in  STD_LOGIC;
         reset   : in  STD_LOGIC;
-        enable  : in  STD_LOGIC;
         d       : in  STD_LOGIC_VECTOR(N-1 downto 0);
         q       : out STD_LOGIC_VECTOR(N-1 downto 0)
     );
@@ -21,9 +20,7 @@ begin
         if reset = '1' then
             q <= (others => '0');
         elsif rising_edge(clk) then
-            if enable = '1' then
                 q <= d;
-            end if;
         end if;
     end process;
 

@@ -5,6 +5,7 @@ use ieee.numeric_std.all;
 entity PMU_logic is 
     Port (	inputs : in std_logic_vector(7 downto 0);
             clk : in std_logic;
+            enable : in std_logic;
            reset : in std_logic;
            S_add : out std_logic_vector(2 downto 0);
            switchAL :out  std_logic;
@@ -44,9 +45,9 @@ signal switchAL_delay, switchML_delay, switchMH_delay : std_logic;
 
 begin
 
-  UPDATE_STATE : process(clk,reset)
+  UPDATE_STATE : process(clk,reset,enable)
   begin 
-      if reset = '1' then
+      if reset = '1' or enable = '0' then
           current_state <= S0;
       elsif rising_edge(clk) then
           current_state <= next_state;
@@ -175,11 +176,12 @@ DELAY : process(clk)
 begin
 if (rising_edge(clk)) then
     switchAL <= switchAL_delay;
-    switchML <= switchML_delay;   
-    switchMH <= switchMH_delay;
     S_add <= S_add_delay;
     end if;
 end process;
+-- non devo mettere delay per moltiplicatore solamente adder visto che è l'unico dopo il registro di mezzo
+switchML <= switchML_delay;   
+    switchMH <= switchMH_delay;
 
   DET : detection_circuit port map(inputs,clk,reset_cnt,cnt_enable,x,y,k,z,p);
 

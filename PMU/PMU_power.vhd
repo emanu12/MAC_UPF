@@ -6,6 +6,7 @@ entity PMU_power is
     port (
         clk : in std_logic;
         rst : in std_logic;
+        enable : out std_logic;
         state_select : in std_logic_vector(2 downto 0);
         switchML,switchAL,switchAH,switchMH : out std_logic;
         isoML,isoAL,isoAH,isoMH : out std_logic;
@@ -50,9 +51,9 @@ begin
                 next_state <= SLEEP;
             elsif state_select = "001" then
                 next_state <= RPM;
-            elsif state_select = "010" then 
-                next_state <= LPM;
             elsif state_select = "011" then 
+                next_state <= LPM;
+            elsif state_select = "010" then 
                 next_state <= ESM;
             elsif state_select = "110" then
                 next_state <= FPM;
@@ -64,9 +65,9 @@ begin
                 next_state <= SLEEP;
             elsif state_select = "001" then
                 next_state <= RPM;
-            elsif state_select = "010" then 
-                next_state <= LPM;
             elsif state_select = "011" then 
+                next_state <= LPM;
+            elsif state_select = "010" then 
                 next_state <= ESM;
             elsif state_select = "110" then
                 next_state <= FPM;
@@ -78,9 +79,9 @@ begin
                 next_state <= SLEEP;
             elsif state_select = "001" then
                 next_state <= RPM;
-            elsif state_select = "010" then 
-                next_state <= LPM;
             elsif state_select = "011" then 
+                next_state <= LPM;
+            elsif state_select = "010" then 
                 next_state <= ESM;
             elsif state_select = "110" then
                 next_state <= FPM;
@@ -92,9 +93,9 @@ begin
                 next_state <= SLEEP;
             elsif state_select = "001" then
                 next_state <= RPM;
-            elsif state_select = "010" then 
-                next_state <= LPM;
             elsif state_select = "011" then 
+                next_state <= LPM;
+            elsif state_select = "010" then 
                 next_state <= ESM;
             elsif state_select = "110" then
                 next_state <= FPM;
@@ -106,9 +107,9 @@ begin
                 next_state <= SLEEP;
             elsif state_select = "001" then
                 next_state <= RPM;
-            elsif state_select = "010" then 
-                next_state <= LPM;
             elsif state_select = "011" then 
+                next_state <= LPM;
+            elsif state_select = "010" then 
                 next_state <= ESM;
             elsif state_select = "110" then
                 next_state <= FPM;
@@ -136,6 +137,7 @@ begin
     ret1 <= '1';  -- trasparenti
     ret2 <= '1';
     ret3 <= '1';
+    enable <= '0';
   case current_state is 
     when SLEEP =>
         ret1 <= '0';
@@ -150,6 +152,7 @@ begin
         isoAL <= '1';
         sel1 <= '0';  -- prendo parte low sopra
         sel2 <= '0';
+        enable <= '1';  -- abilitato la PMU logic
     when LPM =>
         switchML <= '0';
         switchAH <= '0';
@@ -164,6 +167,7 @@ begin
         isoMH <= '1';
         sel1 <= '1';
         sel2 <= '0';
+        enable <= '1';  -- abilitato la PMU logic
     when FPM =>
       -- Assuming FPM has the same outputs as ESM 
       switchAH <= '0'; 

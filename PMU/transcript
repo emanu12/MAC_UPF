@@ -1,303 +1,6 @@
 # Compile of cnt_2bit.vhd was successful.
 # Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
 # Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd failed with 2 errors.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd failed with 4 errors.
-# 12 compiles, 4 failed with 10 errors.
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd failed with 113 errors.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd failed with 4 errors.
-# 12 compiles, 4 failed with 121 errors.
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd failed with 65 errors.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd failed with 4 errors.
-# 12 compiles, 4 failed with 73 errors.
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd failed with 1 errors.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd failed with 4 errors.
-# 12 compiles, 4 failed with 9 errors.
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd failed with 4 errors.
-# 12 compiles, 3 failed with 8 errors.
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 2 failed with 4 errors.
-vsim -gui work.tb_pmu_logic
-# vsim -gui work.tb_pmu_logic 
-# Start time: 17:57:06 on May 26,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_pmu_logic(sim)
-# ** Warning: (vsim-3473) Component instance "uut : PMU_logic" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_pmu_logic File: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU_logic.vhd
-add wave -position insertpoint sim:/tb_pmu_logic/*
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: emanu  Hostname: LAPTOP-V0T459F2  ProcessID: 11776
-#           Attempting to use alternate WLF file "./wlft93zn6n".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft93zn6n
-run
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 2 failed with 4 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_pmu_logic(sim)
-# ** Warning: (vsim-3473) Component instance "uut : PMU_logic" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_pmu_logic File: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU_logic.vhd
-run
-# GetModuleFileName: Impossibile trovare il modulo specificato.
-# 
-# 
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 2 failed with 4 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_pmu_logic(sim)
-# ** Warning: (vsim-3473) Component instance "BOOO : PMU_logic" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_pmu_logic File: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU_logic.vhd
-run
-# GetModuleFileName: Impossibile trovare il modulo specificato.
-# 
-# 
-restart
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 2 failed with 4 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_pmu_logic(sim)
-# ** Warning: (vsim-3473) Component instance "BOOO : PMU_logic" is not bound.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_pmu_logic File: C:/Users/emanu/Documents/POLITO/LOWPOWER/MAC_UPF/PMU/tb_PMU_logic.vhd
-run
-# GetModuleFileName: Impossibile trovare il modulo specificato.
-# 
-# 
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 2 failed with 4 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_pmu_logic(sim)
-# Loading work.pmu_logic(behavioral)
-# Loading work.detection_circuit(behavioral)
-# Loading work.cnt_2bit(behavioral)
-run
-# GetModuleFileName: Impossibile trovare il modulo specificato.
-# 
-# 
-add wave -position insertpoint sim:/tb_pmu_logic/UTT/*
-restart
-run
-# GetModuleFileName: Impossibile trovare il modulo specificato.
-# 
-# 
-restart
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 2 failed with 4 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_pmu_logic(sim)
-# Loading work.pmu_logic(behavioral)
-# Loading work.detection_circuit(behavioral)
-# Loading work.cnt_2bit(behavioral)
-run
-# GetModuleFileName: Impossibile trovare il modulo specificato.
-# 
-# 
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 2 failed with 4 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_pmu_logic(sim)
-# Loading work.pmu_logic(behavioral)
-# Loading work.detection_circuit(behavioral)
-# Loading work.cnt_2bit(behavioral)
-run
-# GetModuleFileName: Impossibile trovare il modulo specificato.
-# 
-# 
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd failed with 1 errors.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 3 failed with 5 errors.
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 2 failed with 4 errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.tb_pmu_logic(sim)
-# Loading work.pmu_logic(behavioral)
-# Loading work.detection_circuit(behavioral)
-# Loading work.cnt_2bit(behavioral)
-run
-# GetModuleFileName: Impossibile trovare il modulo specificato.
-# 
-# 
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of PMU_logic.vhd was successful.
-# Compile of PMU_power.vhd was successful.
-# Compile of PMU_tot.vhd was successful.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_mul.vhd was successful.
-# Compile of tb_PMU.vhd was successful.
-# Compile of tb_PMU_logic.vhd was successful.
-# 12 compiles, 2 failed with 4 errors.
-quit -sim
-# End time: 18:28:56 on May 26,2025, Elapsed time: 0:31:50
-# Errors: 0, Warnings: 2
-# Load canceled
-# Compile of PMU_6.vhd failed with 3 errors.
-# Compile of tb_detection_circuit.vhd failed with 1 errors.
-# Compile of tb_PMU_power.vhd was successful.
-# 3 compiles, 2 failed with 4 errors.
-# Compile of cnt_2bit.vhd was successful.
-# Compile of detection_circuit.vhd was successful.
-# Compile of mul.vhd was successful.
-# Compile of PMU.vhd was successful.
-# Compile of PMU_6.vhd failed with 3 errors.
 # Compile of PMU_logic.vhd was successful.
 # Compile of PMU_power.vhd was successful.
 # Compile of PMU_tot.vhd was successful.
@@ -306,20 +9,223 @@ quit -sim
 # Compile of tb_PMU.vhd was successful.
 # Compile of tb_PMU_logic.vhd was successful.
 # Compile of tb_PMU_power.vhd was successful.
-# 13 compiles, 2 failed with 4 errors.
-vsim -gui work.tb_pmu_power
-# vsim -gui work.tb_pmu_power 
-# Start time: 18:37:03 on May 26,2025
+# Compile of tb_PMU_tot.vhd failed with 1 errors.
+# 12 compiles, 3 failed with 2 errors.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd failed with 1 errors.
+# 12 compiles, 2 failed with 2 errors.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# 12 compiles, 1 failed with 1 error.
+vsim -gui work.tb_pmu_tot
+# vsim -gui work.tb_pmu_tot 
+# Start time: 15:30:11 on May 27,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.tb_pmu_power(behavioral)
+# Loading work.tb_pmu_tot(behavior)
+# Loading work.pmu_tot(behavioral)
+# Loading work.pmu_logic(behavioral)
+# Loading work.detection_circuit(behavioral)
+# Loading work.cnt_2bit(behavioral)
 # Loading work.pmu_power(behavioral)
-add wave -position insertpoint sim:/tb_pmu_power/UUT/*
+# ** Warning: (vsim-8683) Uninitialized out port /tb_pmu_tot/UUT/switchMH has no driver.
+# This port will contribute value (U) to the signal network.
+add wave -position insertpoint sim:/tb_pmu_tot/UUT/PMULOGIC/*
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: emanu  Hostname: LAPTOP-V0T459F2  ProcessID: 11776
-#           Attempting to use alternate WLF file "./wlft7kvkhv".
+#           Attempting to use alternate WLF file "./wlftcwy1z0".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft7kvkhv
+#           Using alternate file: ./wlftcwy1z0
+add wave -position insertpoint sim:/tb_pmu_tot/UUT/PMUPOWER/*
+add wave -position insertpoint sim:/tb_pmu_tot/UUT/*
 run
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# 12 compiles, 1 failed with 1 error.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_pmu_tot(behavior)
+# Loading work.pmu_tot(behavioral)
+# Loading work.pmu_logic(behavioral)
+# Loading work.detection_circuit(behavioral)
+# Loading work.cnt_2bit(behavioral)
+# Loading work.pmu_power(behavioral)
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+add wave -position insertpoint sim:/tb_pmu_tot/UUT/*
+restart
+restart
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# 12 compiles, 1 failed with 1 error.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_pmu_tot(behavior)
+# Loading work.pmu_tot(behavioral)
+# Loading work.pmu_logic(behavioral)
+# Loading work.detection_circuit(behavioral)
+# Loading work.cnt_2bit(behavioral)
+# Loading work.pmu_power(behavioral)
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# 12 compiles, 1 failed with 1 error.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_pmu_tot(behavior)
+# Loading work.pmu_tot(behavioral)
+# Loading work.pmu_logic(behavioral)
+# Loading work.detection_circuit(behavioral)
+# Loading work.cnt_2bit(behavioral)
+# Loading work.pmu_power(behavioral)
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# Compile of datapath.vhd failed with 3 errors.
+# 13 compiles, 2 failed with 4 errors.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_detection_circuit.vhd failed with 1 errors.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# Compile of datapath.vhd failed with 3 errors.
+# 13 compiles, 2 failed with 4 errors.
+# Compile of datapath.vhd failed with 3 errors.
+# Compile of datapath.vhd failed with 1 errors.
+# Compile of cnt_2bit.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of PMU.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of tb_mul.vhd was successful.
+# Compile of tb_PMU.vhd was successful.
+# Compile of tb_PMU_logic.vhd was successful.
+# Compile of tb_PMU_power.vhd was successful.
+# Compile of tb_PMU_tot.vhd was successful.
+# Compile of datapath.vhd failed with 1 errors.
+# 12 compiles, 1 failed with 1 error.
+# Compile of datapath.vhd failed with 7 errors.
+# Compile of datapath.vhd failed with 3 errors.
+# Compile of datapath.vhd failed with 1 errors.
+# Compile of datapath.vhd was successful.
