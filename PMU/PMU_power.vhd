@@ -54,7 +54,7 @@ begin
                 next_state <= LPM;
             elsif state_select = "011" then 
                 next_state <= ESM;
-            elsif state_select = "100" then
+            elsif state_select = "110" then
                 next_state <= FPM;
             else
                 next_state <= SLEEP; 
@@ -68,7 +68,7 @@ begin
                 next_state <= LPM;
             elsif state_select = "011" then 
                 next_state <= ESM;
-            elsif state_select = "100" then
+            elsif state_select = "110" then
                 next_state <= FPM;
             else
                 next_state <= SLEEP; 
@@ -82,7 +82,7 @@ begin
                 next_state <= LPM;
             elsif state_select = "011" then 
                 next_state <= ESM;
-            elsif state_select = "100" then
+            elsif state_select = "110" then
                 next_state <= FPM;
             else
                 next_state <= SLEEP; 
@@ -96,7 +96,7 @@ begin
                 next_state <= LPM;
             elsif state_select = "011" then 
                 next_state <= ESM;
-            elsif state_select = "100" then
+            elsif state_select = "110" then
                 next_state <= FPM;
             else
                 next_state <= SLEEP; 
@@ -110,7 +110,7 @@ begin
                 next_state <= LPM;
             elsif state_select = "011" then 
                 next_state <= ESM;
-            elsif state_select = "100" then
+            elsif state_select = "110" then
                 next_state <= FPM;
             else
                 next_state <= SLEEP; 
