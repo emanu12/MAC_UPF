@@ -85,6 +85,7 @@ signal out_vprca : std_logic_vector(15 downto 0);
 signal in_rca : std_logic_vector(15 downto 0);  
 signal out_rca : std_logic_vector(15 downto 0);
 signal out_sum : std_logic_vector(15 downto 0);
+signal rst_delayed : std_logic;
 signal in_rca_mux, in_vprca_mux : std_logic_vector(15 downto 0);
 
 begin 
@@ -155,7 +156,7 @@ MUX_HIGH: mux
     port map (
         a => out_low_multiplier,
         b => out_high_multiplier, 
-        sel => sel2,
+        sel => sel1,
         y =>in_rca_mux
     );
 
@@ -182,8 +183,6 @@ REG_H: registerN
         d => in_vprca_mux,
         q => in_vprca
     );
-
-
 
 
 -- VPRCA
@@ -218,7 +217,7 @@ MUX_SUM: mux
     port map (
         a => out_vprca,
         b => out_rca, 
-        sel => switchML,
+        sel => sel2,
         y => out_sum
     );
 
@@ -229,10 +228,20 @@ REG_OUTPUT: registerN
     )
     port map (
         clk => clk,
-        reset => reset,
+        reset => rst_delayed,
         d => out_sum, 
         q => outputs
     );
 
+    delayed_reset: process(clk)
+    begin
+        if rising_edge(clk) then
+            if reset = '1' then
+                rst_delayed <= '1';
+            else
+                rst_delayed <= '0';
+            end if;
+        end if;
+    end process;
 
 end behavioral;

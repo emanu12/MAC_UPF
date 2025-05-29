@@ -1,0 +1,73 @@
+# Compile of cnt_2bit.vhd was successful.
+# Compile of registerN.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of FA.vhd was successful.
+# Compile of FA_modify.vhd was successful.
+# Compile of multiplier.vhd was successful.
+# Compile of decoder_iniziale.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of precision_ripple_carry_adder.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of MAC_UPF.vhd was successful.
+# Compile of tb_MAC_UPF.vhd was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.tb_mac_upf
+# vsim -gui work.tb_mac_upf 
+# Start time: 16:52:11 on May 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_mac_upf(behavioral)
+# Loading work.mac_upf(behavioral)
+# Loading work.pmu_tot(behavioral)
+# Loading work.pmu_logic(behavioral)
+# Loading work.detection_circuit(behavioral)
+# Loading work.cnt_2bit(behavioral)
+# Loading work.pmu_power(behavioral)
+# Loading work.datapath(behavioral)
+# Loading work.registern(behavioral)
+# Loading work.multiplier(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.precision_ripple_carry_adder(behavior)
+# Loading work.decoder(behavior)
+# Loading work.fa_modify(behavior)
+# Loading work.fa(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.rca(behavioral)
+add wave -position insertpoint sim:/tb_mac_upf/MAC_UPF_inst/PMU_inst/*
+add wave -position insertpoint sim:/tb_mac_upf/MAC_UPF_inst/DP_inst/*
+run
+# Compile of tb_MAC_UPF.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_mac_upf(behavioral)
+run
+# GetModuleFileName: Impossibile trovare il modulo specificato.
+# 
+# 
+# Compile of cnt_2bit.vhd was successful.
+# Compile of registerN.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of mux.vhd was successful.
+# Compile of FA.vhd was successful.
+# Compile of FA_modify.vhd was successful.
+# Compile of multiplier.vhd was successful.
+# Compile of decoder_iniziale.vhd was successful.
+# Compile of detection_circuit.vhd was successful.
+# Compile of precision_ripple_carry_adder.vhd was successful.
+# Compile of PMU_logic.vhd was successful.
+# Compile of PMU_power.vhd was successful.
+# Compile of PMU_tot.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of MAC_UPF.vhd was successful.
+# Compile of tb_MAC_UPF.vhd was successful.
+# Compile of tb_MAC_UPF_ver.sv failed with 1 errors.
+# 17 compiles, 1 failed with 1 error.
+# End time: 18:11:34 on May 28,2025, Elapsed time: 1:19:23
+# Errors: 0, Warnings: 3
